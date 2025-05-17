@@ -11,7 +11,7 @@ Ejecuta comandos como imprimir (equivalente a console.log) y salir (equivalente 
 
 
 Instalacion:
-Clona este repositorio: git clone https://github.com/lucasdominguez90/antlr-lenguajeproyect.git
+Clona este repositorio: git clone https://github.com/lucasdominguez90/ssl-lenguajeproyect.git
 
 
 Uso:
