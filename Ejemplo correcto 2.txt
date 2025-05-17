@@ -1,0 +1,12 @@
+segun 2 hacer {
+  caso 1:
+    imprimir("Número uno")
+    salir
+  caso 2:
+    imprimir("Número dos")
+    imprimir("¡Exacto!")
+    salir
+  defecto:
+    imprimir("Número desconocido")
+    salir
+} finsgun
