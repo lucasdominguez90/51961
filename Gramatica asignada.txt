@@ -1,0 +1,35 @@
+Tarea: Construcción de un Analizador con ANTLR4 y JavaScript
+
+Tema: 39568_5
+
+<programa>    ::= { <instruccion> }+
+
+<instruccion> ::= <seleccion>
+
+<seleccion>   ::= 'segun' <expresion> 'hacer' '{' { <caso> } [ <caso_defecto> ] '}' 'finsgun'
+
+<caso>        ::= 'caso' <constante> ':' { <sentencia> }
+
+<caso_defecto>::= 'defecto' ':' { <sentencia> }
+
+<sentencia>   ::= { <salida> }+ <terminar>
+
+<salida>      ::= 'imprimir' '(' <cadena> ')'
+
+<terminar>    ::= 'salir' ';'
+
+<expresion>   ::= <constante>
+
+<constante>   ::= <cadena> | <numero>
+
+<cadena>      ::= '"' { <caracter> } '"'
+
+<numero>      ::= { <digito> }+
+
+<caracter>    ::= <letra> | <digito> | <simbolo>
+
+<letra>       ::= 'a' | 'b' | ... | 'z' | 'A' | 'B' | ... | 'Z'
+
+<digito>      ::= '0' | ... | '9'
+
+<simbolo>     ::= ',' | '.' | ';' | ':' | '-' | '_' | '?' | '!'
