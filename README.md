@@ -8,7 +8,7 @@ Traduce el código fuente a JavaScript.
 Ejecuta comandos como imprimir (equivalente a console.log) y salir (equivalente a return).
 Instalacion:
 Clona este repositorio: git clone https://github.com/lucasdominguez90/51961.git
-Uso
+Uso:
 Escribí tu código en input.txt. Por ejemplo:
 segun 2 hacer {
   caso 1:
