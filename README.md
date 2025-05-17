@@ -10,14 +10,19 @@ Instalacion:
 Clona este repositorio: git clone https://github.com/lucasdominguez90/51961.git
 Uso
 Escribí tu código en input.txt. Por ejemplo:
-segun "color"
-  caso "rojo":
-    imprimir "Es rojo"
-  caso "azul":
-    imprimir "Es azul"
-  defecto:
-    imprimir "Otro color"
+segun 2 hacer {
+  caso 1:
+    imprimir("Número uno")
     salir
+  caso 2:
+    imprimir("Número dos")
+    imprimir("¡Exacto!")
+    salir
+  defecto:
+    imprimir("Número desconocido")
+    salir
+} finsgun
+
     
 Ejecutá el programa con Node:
 node index.js
