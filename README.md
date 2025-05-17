@@ -27,7 +27,7 @@ segun 2 hacer {
   defecto:
     imprimir("Número desconocido")
     salir
-} finsgun
+} finsegun
 
     
 Ejecutá el programa con Node:
