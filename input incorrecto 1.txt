@@ -1,0 +1,11 @@
+segun "x" hacer {
+  caso "a"
+    imprimir("Falta el dos puntos")
+    salir
+  caso "b":
+    imprimir("Esto sí está bien")
+    salir
+  defecto:
+    imprimir("Este también está bien")
+    salir
+} finsgun
