@@ -7,4 +7,25 @@ Genera una tabla de tokens.
 Traduce el código fuente a JavaScript.
 Ejecuta comandos como imprimir (equivalente a console.log) y salir (equivalente a return).
 Instalacion:
-Clona este repositorio: 
+Clona este repositorio: https://github.com/lucasdominguez90/ldominguez-51961.git
+Uso
+Escribí tu código en input.txt. Por ejemplo:
+segun "color"
+  caso "rojo":
+    imprimir "Es rojo"
+  caso "azul":
+    imprimir "Es azul"
+  defecto:
+    imprimir "Otro color"
+    salir
+    
+Ejecutá el programa con Node:
+node index.js
+
+El programa:
+Verificará si hay errores.
+Mostrará el árbol de derivación y los tokens.
+Imprimirá el código traducido a JavaScript.
+Mostrará información extra del Visitor si hay.
+
+
