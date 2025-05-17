@@ -6,4 +6,5 @@ Muestra el árbol de derivación.
 Genera una tabla de tokens.
 Traduce el código fuente a JavaScript.
 Ejecuta comandos como imprimir (equivalente a console.log) y salir (equivalente a return).
-
+Instalacion:
+Clona este repositorio: 
