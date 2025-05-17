@@ -1,8 +1,0 @@
-segun "dia" hacer {
-  caso:
-    imprimir("Es lunes")
-    salir
-  defecto
-    imprimir("Día desconocido")
-    salir
-} finsgun
