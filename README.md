@@ -7,7 +7,7 @@ Genera una tabla de tokens.
 Traduce el código fuente a JavaScript.
 Ejecuta comandos como imprimir (equivalente a console.log) y salir (equivalente a return).
 Instalacion:
-Clona este repositorio: https://github.com/lucasdominguez90/ldominguez-51961.git
+Clona este repositorio: https://github.com/lucasdominguez90/51961.git
 Uso
 Escribí tu código en input.txt. Por ejemplo:
 segun "color"
